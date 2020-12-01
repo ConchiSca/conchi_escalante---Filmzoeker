@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Filmzoeker</title>
+    <script  defer  src="movies.js" type="text/javascript"></script>
+    <script  defer  src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Mijn Filmzoeker</h1>
+    </header>
+    <nav>
+        <input type="radio" id="latest" name="film-filter" value="latest-films">
+        <label for="nieuw">Latest films</label><br>
+        <input type="radio" id="avengers" name="film-filter" value="avengers-films">
+        <label for="avengers">Avengers films</label><br>
+        <input type="radio" id="xmen" name="film-filter" value="xmen-films">
+        <label for="xmen">X-Men films</label>
+        <input type="radio" id="princess" name="film-filter" value="princess-films">
+        <label for="princess">Princess films</label><br>
+        <input type="radio" id="batman" name="film-filter" value="batman-films">
+        <label for="batman">Batman films</label>
+    </nav>
+        
+    <main>
+        <ul id="film-list">
+
+        </ul>
+    </main>
+    <footer>
+        2020 Conchi Escalante
+    </footer>
+</body>
+</html>
